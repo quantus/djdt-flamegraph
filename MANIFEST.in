@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+include flask_debugtoolbar_flamegraph/flamegraph.pl
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
