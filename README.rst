@@ -1,6 +1,6 @@
 
 ===============================
-Flask Debugtoobar Flame Graph
+Flask Debugtoolbar Flame Graph
 ===============================
 
 Based on the awesome djdt-flamegraph(https://github.com/23andMe/djdt-flamegraph) project.
