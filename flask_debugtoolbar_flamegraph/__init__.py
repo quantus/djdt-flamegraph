@@ -1,0 +1,1 @@
+from .flask_debugtoolbar_flamegraph import FlamegraphPanel
