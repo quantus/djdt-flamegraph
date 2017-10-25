@@ -11,26 +11,23 @@ except ImportError:
 with open('README.rst') as readme_file:
     readme = readme_file.read()
 
-with open('HISTORY.rst') as history_file:
-    history = history_file.read().replace('.. :changelog:', '')
-
 setup(
-    name='djdt_flamegraph',
-    version='0.2.12',
-    description='Flamegraphs for Django Debug Toolbar',
-    long_description=readme + '\n\n' + history,
-    author='Bo Lopker',
-    author_email='blopker@23andme.com',
-    url='https://github.com/23andme/djdt-flamegraph',
+    name='flask_debugtoolbar_flamegraph',
+    version='0.1.0',
+    description='Flamegraphs for Flask Debug Toolbar',
+    long_description=readme,
+    author='Pekka Pöyry',
+    author_email='pekka.poyry@gmail.com',
+    url='https://github.com/quantus/flask-debugtoolbar-flamegraph',
     packages=[
-        'djdt_flamegraph',
+        'flask_debugtoolbar_flamegraph',
     ],
-    package_dir={'djdt_flamegraph':
-                 'djdt_flamegraph'},
+    package_dir={'flask_debugtoolbar_flamegraph':
+                 'flask_debugtoolbar_flamegraph'},
     license='MIT',
     zip_safe=False,
     include_package_data=True,
-    keywords='djdt_flamegraph',
+    keywords='flask_debugtoolbar_flamegraph',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
