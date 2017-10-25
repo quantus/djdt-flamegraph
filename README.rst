@@ -7,11 +7,8 @@ Based on the awesome djdt-flamegraph(https://github.com/23andMe/djdt-flamegraph)
 
 Get a flame graph of the current request.
 
-.. image:: https://travis-ci.org/23andMe/djdt-flamegraph.svg?branch=master
-        :target: https://travis-ci.org/23andMe/djdt-flamegraph
-
-.. image:: https://img.shields.io/pypi/v/djdt_flamegraph.svg
-        :target: https://pypi.python.org/pypi/djdt_flamegraph
+.. image:: https://img.shields.io/pypi/v/flask-debugtoolbar-flamegraph.svg
+        :target: https://pypi.python.org/pypi/flask-debugtoolbar-flamegraph
 
 Screenshot
 ----------

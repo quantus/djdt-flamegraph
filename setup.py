@@ -13,7 +13,7 @@ with open('README.rst') as readme_file:
 
 setup(
     name='flask_debugtoolbar_flamegraph',
-    version='0.1.0',
+    version='0.1.2',
     description='Flamegraphs for Flask Debug Toolbar',
     long_description=readme,
     author='Pekka Pöyry',
