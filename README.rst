@@ -3,7 +3,7 @@
 Flask Debugtoobar Flame Graph
 ===============================
 
-Based on the awesome [djdt-flamegraph](https://github.com/23andMe/djdt-flamegraph) project.
+Based on the awesome djdt-flamegraph(https://github.com/23andMe/djdt-flamegraph) project.
 
 Get a flame graph of the current request.
 
